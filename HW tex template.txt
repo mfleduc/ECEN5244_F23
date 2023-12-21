@@ -1,0 +1,99 @@
+\documentclass[12pt]{exam}
+\usepackage[utf8]{inputenc}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{amsmath, amscd, amssymb, amsthm, xspace, graphicx}
+%\usepackage{hyperref}
+\usepackage[margin=1in]{geometry} % We can control the margins here
+\usepackage[all]{xy}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{mathtools} 
+%\usepackage{mcode}
+\usepackage{listings}
+
+\DeclarePairedDelimiter\Floor\lfloor\rfloor
+\DeclarePairedDelimiter\Ceil\lceil\rceil
+
+\newcommand{\class}{APPM 5600}
+\newcommand{\term}{Fall 2023}
+\newcommand{\examnum}{HW 1}
+\newcommand{\mbbE}{\mathbb{E}}
+\newcommand{\av}{\vec{a}}
+\newcommand{\diffd}{\textnormal{d}}
+
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+
+\pagestyle{head}
+\firstpageheader{}{}{}
+\runningheader{\class}{\examnum\ - Page \thepage\ of \numpages}
+\runningheadrule
+
+
+\begin{document}
+
+\noindent
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} l}
+	\textbf{Matthew LeDuc}&&\\
+	\textbf{\class}&&\\
+	\textbf{\term} &&\\
+	\textbf{\examnum} &&\\
+\end{tabular*}\\
+\noindent
+
+\section*{Question 1}
+\subsection*{Part i}
+
+\subsection*{Part ii}
+
+\subsection*{Part iii}
+
+\newpage
+
+\section*{Question 2}
+
+\subsection*{Part i}
+
+\subsection*{Part ii}
+
+\subsection*{Part iii}
+
+\newpage
+
+\section*{Question 3}
+
+\subsection*{Part i}
+
+\subsection*{Part ii}
+
+\subsection*{Part iii}
+
+\newpage
+
+\section*{Question 4}
+
+\newpage 
+
+\section*{Question 5}
+
+\newpage 
+
+\section*{Question 6}
+
+\subsection*{Part i}
+
+\subsection*{Part ii}
+
+\subsection*{Part iii}
+
+\newpage
+\section*{Appendix}
+
+
+
+
+\end{document}
